@@ -1,0 +1,44 @@
+
+.contact-form{
+    width: 70%;
+    margin: 50px auto;
+}
+.half{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.half .item{
+    flex-basis: 45%;
+}
+.contact-form label{
+    display: block;
+    color: hsl(295, 87%, 9%);
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.contact-form input, textarea{
+    border-radius: 5px;
+    outline: 0;
+    padding: 8px;
+    width: 100%;
+    background: transparent;
+    font-size: 15px;
+    border: 1px solid rgb(11, 10, 10);
+}
+.full{
+    margin-bottom: 20px;
+}
+.full textarea{
+    height: 200px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+@media(max-width: 700px){
+    .half{
+        flex-direction: column;
+    }
+}

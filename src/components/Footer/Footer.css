@@ -1,0 +1,69 @@
+.footer{
+    padding: 20px 0;
+    background-color: hsl(249, 32%, 56%);
+    margin-top: 50px;
+}
+.faq{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.faq h4{
+    padding-bottom: 12px;
+}
+.down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.para{
+    border-top: 1px solid black;
+    margin: 20px 30px;
+}
+.para i{
+    margin: 15px;
+    font-size: 1.1em; 
+}
+.footer p{
+    font-size: 1.1rem;
+    margin-left: 30px;
+}
+.footer span{
+    border: 2px solid hsl(295, 87%, 9%);
+    border-radius: 50%;
+    padding: 0px 5px;
+}
+section{
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+section p{
+    margin: 0px;
+}
+.anchors a{
+    margin: 0px 10px;
+    color: hsl(295, 87%, 9%);
+}
+
+@media only screen and (max-width: 970px){
+    .faq{
+        display: grid;
+        grid-template-areas:
+                    "freq cust" 
+                    "luft corp";
+    }
+    .freq{
+        grid-area: freq;
+    }
+    .cust{
+        grid-area: cust;
+    }
+    .luft{
+        grid-area: luft;
+    }
+    .corp{
+        grid-area: corp;
+    }
+
+}

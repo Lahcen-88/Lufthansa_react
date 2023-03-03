@@ -1,0 +1,48 @@
+.menu{
+    background-color: hsl(249, 32%, 56%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.menu a{
+    position: relative;
+    text-decoration: none;
+    color: hsl(295, 87%, 9%);
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.menu a::after{
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    height: 2px;
+    width: 0;
+    left: 20px;
+    bottom: 1px;
+    transition: 0.3s;
+}
+.menu a:hover::after{
+    width: 70%;
+}
+.menu a:hover{
+    color: #fff;
+}
+
+@media only screen and (max-width: 700px){
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav a{
+        display: inline-block;
+        margin: 5px 0px;
+    }
+}
+
+

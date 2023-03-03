@@ -1,0 +1,18 @@
+
+
+.vehicle p{
+    margin: 20px 0px;
+}
+.car img{
+    border-radius: 5px;
+    width: 100%;
+}
+.car h6{
+    margin: 15px 0px;
+}
+.slick-slide > div {
+    margin: 20px 10px;
+}
+.slick-list {
+    margin: 0px -10px;
+}

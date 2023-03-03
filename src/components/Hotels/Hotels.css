@@ -1,0 +1,58 @@
+
+.hoteis img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.disc{
+    margin-top: 60px;
+}
+.hoteis h6, p{
+    margin-top: 10px;
+}
+.slick-slide > div {
+    margin: 20px 10px;
+}
+.slick-list {
+    margin: 0px -10px;
+}
+
+.card{
+    background: hwb(248 78% 16%);
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.container p, h4{
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.card img{
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+@media only screen and (max-width: 800px){
+    .container{
+        display: grid;
+        grid-template-areas:
+                    "trav digi" 
+                    "onli flig";
+    }
+    .trav{
+        grid-area: trav;
+    }
+    .digi{
+        grid-area: digi;
+    }
+    .onli{
+        grid-area: onli;
+    }
+    .flig{
+        grid-area: flig;
+    }
+}

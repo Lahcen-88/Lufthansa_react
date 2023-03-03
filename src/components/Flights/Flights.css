@@ -1,0 +1,64 @@
+
+.notice h5{
+    margin-bottom: 10px;
+}
+.main-form{
+    margin: 60px 0px;
+}
+.one, .two{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.one div, .two div{
+    flex-basis: 30%;
+}
+.main-form input{
+    outline: none;
+}
+
+.main-form select, input{
+    width: 100%;
+    font-size: 18px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    background: transparent;
+    border: 1px solid rgb(11, 10, 10);
+}
+.main-form  label{
+    display: inline-block;
+    color: hsl(295, 87%, 9%);
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.botao{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+.services div{
+    flex-basis: 30%;
+}
+.services p{
+    margin-top: 25px;
+}
+
+@media(max-width: 600px) {
+    .main-form{
+        display: flex;
+    }
+    .one, .two{
+        flex-direction: column;
+    }
+    label{
+        display: inline-block;
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
+}

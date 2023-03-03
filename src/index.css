@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: hwb(248 78% 16%);
+}
+main{
+  min-height: calc(100vh - 100px);
+  width: 90%;
+  margin: 0px auto;
+}
+.btn{
+  padding: 10px 50px;
+  background-color: hsl(249, 32%, 56%);
+  color: #151515;
+  font-weight: 700;
+  border-radius: 100px;
+  transition: all 0.5s;
+}
+.btn:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px #6c26a233;
+}
+
+@media(max-width:500px) {
+  main{
+      width: 95%;
+  }
+}
