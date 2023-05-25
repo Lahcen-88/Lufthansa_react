@@ -1,3 +1,6 @@
+"Welcome to Lufthansa company, where we make dreams take flight! We are a dynamic and innovative flying company dedicated to providing exceptional aerial experiences and services. Whether it's soaring through the skies on our state-of-the-art aircraft or enjoying breathtaking scenic tours, we offer unforgettable adventures tailored to meet your every need. With a passionate team of experienced pilots and cutting-edge technology, safety and customer satisfaction are our top priorities. Embrace the freedom of flight and let us transport you to new heights of excitement and wonder. Get ready to embark on an extraordinary journey with."
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
